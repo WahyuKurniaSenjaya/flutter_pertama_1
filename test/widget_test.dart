@@ -31,14 +31,14 @@ import 'package:flutter_pertama/main.dart';
 void main() {
     print('VARIAN');
     //var
-  var mahasiswa = "Wahyu Kurnia Senjaya";
+  var mahasiswa = "Wahyu Kurnia";
   var umur = "20";
 
   print(mahasiswa + " Usia = " + umur.toString());
 
   //string
     print('STRING');
-  String mahasiswaString = "SaWahKu";
+  String mahasiswaString = "WHY";
 
   print(mahasiswaString);
 
@@ -69,7 +69,7 @@ void main() {
 
   //Map
     print('MAP');
-  Map kelas = {"Nama": "Wahyu Kurnia Senjaya", "Kelas": "SI E-Bisnis 5"};
+  Map kelas = {"Nama": "Wahyu Kurnia", "Kelas": "SI E-Bisnis 5"};
 
   print(kelas);
   print(kelas['Nama']);
@@ -77,7 +77,7 @@ void main() {
   //Map
     print('MAP STRING DYNAMIC');
   Map<String, dynamic> kelas2 = {
-    "Nama": "Wahyu Kurnia Senjaya",
+    "Nama": "Wahyu Kurnia",
     "Kelas": "SI E-Bisnis 5",
   };
 
@@ -134,7 +134,7 @@ print('OPERATOR');
 //Const Final
   //Const
   print('CONST');
-  const String mahasiswafk = "Wahyu Kurnia Senjaya";
+  const String mahasiswafk = "Wahyu Kurnia";
 
   print(mahasiswafk);
 
@@ -142,7 +142,7 @@ print('OPERATOR');
   print('FINAL');
   final String mahasiswafk1;
 
-  mahasiswafk1 = "Wahyu Kurnia Senjaya";
+  mahasiswafk1 = "Wahyu Kurnia";
 
   print(mahasiswafk1);
 
