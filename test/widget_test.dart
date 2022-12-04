@@ -31,7 +31,7 @@ import 'package:flutter_pertama/main.dart';
 void main() {
     print('VARIAN');
     //var
-  var mahasiswa = "Wahyu Kurnia";
+  var mahasiswa = "Wahyu Kurnia"; 
   var umur = "20";
 
   print(mahasiswa + " Usia = " + umur.toString());
