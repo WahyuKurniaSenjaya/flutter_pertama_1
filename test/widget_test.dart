@@ -112,8 +112,70 @@ print('OPERATOR');
   hitungNilai2(mapel1: 70, mapel2: 80);
   hitungNilai3(75, 75, 100);
   hitungNilai4(75, 100);
+
+//Const Final
+  //Const
+  print('CONST');
+  const String mahasiswafk = "Wahyu Kurnia Senjaya";
+
+  print(mahasiswafk);
+
+  //Final
+  print('FINAL');
+  final String mahasiswafk1;
+
+  mahasiswafk1 = "Wahyu Kurnia Senjaya";
+
+  print(mahasiswafk1);
+
+  //Null Safety
+  // ? ! Late
+  // ? Digunakan pada kondisi boleh null
+  // ! Memaksa untuk dijalankan/yakin ada datanya
+  // Late Untuk diisi nanti
+  print('NULL SAFETY');
+  String? jurusan1;
+
+  jurusan1 = "Sistem Informasi";
+
+  print(jurusan1.length);
+
+  late String prodi;
+
+  prodi = "SI";
+
+  print(prodi.length);
+
+  //Perulangan Looping
+  print('PERULANGAN LOOPING');
+  //For +
+  for (int no = 1; no <= 5; no++) {
+    print(no);
+  }
+
+  //For -
+  for (int no = 5; no >= 1; no--) {
+    print(no);
+  }
+
+  //While
+  int no1 = 1;
+  int no2 = 2;
+  while (no1 <= no2) {
+    print(no1);
+    no1++;
+  }
+
+  //Do While
+  int no3 = 1;
+  int no4 = 5;
+  do {
+    print(no3);
+    no3++;
+  } while (no3 <= no4);
 }
 
+//function
 //function
 hitungNilai() {
   print('Hitung Nilai');
